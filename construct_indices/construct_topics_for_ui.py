@@ -20,10 +20,12 @@ tira = Client()
 IRDS_TO_TIREX_DATASET['ir-lab-jena-leipzig-wise-2023/validation-20231104-training'] = 'validation-20231104-training'
 IRDS_TO_TIREX_DATASET['ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test'] = 'leipzig-topics-20231025-test'
 IRDS_TO_TIREX_DATASET['ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test'] = 'jena-topics-20231026-test'
+IRDS_TO_TIREX_DATASET['ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training'] = 'iranthology-20230618-training'
 
 ALTERNATIVES = {
     'jena-topics-20231026-test': 'jena-topics-small-20240119-training',
-    'leipzig-topics-20231025-test': 'leipzig-topics-small-20240119-training'
+    'leipzig-topics-20231025-test': 'leipzig-topics-small-20240119-training',
+    'iranthology-20230618-training': 'iranthology-chirp-all-topics-20230618-training'
 }
 
 diffir = MainTask(measure='qrel', weight={"weights_1": None, "weights_2": None})
@@ -32,6 +34,7 @@ datasets = {i: ir_datasets.load(i) for i in [
 
     #'ir-lab-jena-leipzig-wise-2023/validation-20231104-training',
     'ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test','ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test',
+    #'ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training',
 
     #'antique/test', 'argsme/2020-04-01/touche-2020-task-1', 'argsme/2020-04-01/touche-2021-task-1', 'cranfield', 'msmarco-passage/trec-dl-2019/judged', 'msmarco-passage/trec-dl-2020/judged',
 
@@ -39,7 +42,7 @@ datasets = {i: ir_datasets.load(i) for i in [
                                              #'cord19/fulltext/trec-covid', 
                                              ]}
 
-dataset_to_docsstore = {i: ir_datasets.load('ir-lab-jena-leipzig-wise-2023/' + ALTERNATIVES[i.split('/')[1]]).docs_store() for i in tqdm(datasets, 'Load docsstores.')}
+dataset_to_docsstore = {i: ir_datasets.load('ir-lab-jena-leipzig-wise-2023/' + ALTERNATIVES.get(i.split('/')[1], i.split('/')[1] )).docs_store() for i in tqdm(datasets, 'Load docsstores.')}
 
 datasets_to_index = {
     'antique/test': 'static/indexes/antique.json.gz',
@@ -52,6 +55,7 @@ datasets_to_index = {
     'ir-lab-jena-leipzig-wise-2023/validation-20231104-training': 'static/indexes/ir-lab-jena-leipzig-wise-2023-validation.json.gz',
     'ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test': 'static/indexes/ir-lab-jena-leipzig-wise-2023.json.gz',
     'ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test': 'static/indexes/ir-lab-jena-leipzig-wise-2023.json.gz',
+    'ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training': 'static/indexes/ir-lab-jena-leipzig-sose-2023.json.gz',
 }
 
 qrels = {n: list(d.qrels_iter()) for n, d in datasets.items()}
@@ -66,6 +70,21 @@ tira_runs = [
 #    "ir-benchmarks/tira-ir-starter/MonoT5 Large (tira-ir-starter-gygaggle)",
 #    "ir-benchmarks/tira-ir-starter/DirichletLM Re-Rank (tira-ir-starter-pyterrier)",
 #    "ir-benchmarks/tira-ir-starter/TASB msmarco-distilbert-base-dot (tira-ir-starter-beir)"
+
+
+    # ir-lab sose 2023
+#    "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-randomizers/milestone-2-bm25", "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-information-retrievers/small-bag", "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-randomizers/bm25-sdm",
+#    "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-cookies-are-for-eating/cookies-first-try", "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-chirp/MS3-TFIDF_PL2_DPH",
+#    "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-chirp/CHIRP-MILESTONE3_TFIDF-DPH", "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-chirp/chirp-milestone02-tfidf",
+#    "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-dogument-retriever/tfidf-DPH", "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-dogument-retriever/wicker-trunk",
+#    "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-dogument-retriever/DPH-feature-bm25-pl2", "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-dogument-retriever/alternate-pineapple",
+#    "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-dogument-retriever/generative-hydrolysis", "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-dogument-retriever/single-3",
+#    "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-dogument-retriever/tfidf_text_scorer", "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-tutors/DPH",
+#    "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-tutors/MonoT5", "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-tutors/PL2",
+#    "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-tutors/ColBERT", "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-tutors/IR-Anthology 2022",
+#    "ir-lab-jena-leipzig-sose-2023/ir-lab-sose-2023-tutors/ANCE",
+
+
 
 
     "ir-lab-jena-leipzig-wise-2023/geometric-tortoise/silent-fork",
@@ -308,6 +327,9 @@ def create_qrel_details(dataset_name, run_files):
         qid = str(i.query_id)
         if qid not in ret:
             ret[qid] = {"dataset": dataset_name, "qid": qid, 'qrels': []}
+
+        if i.doc_id not in doc_id_to_offset:
+            continue
 
         ranks = [run_to_qid_to_docid_to_rank[run_name][qid].get(i.doc_id, RANK_NOT_RETRIEVED) for run_name in run_files if qid in run_to_qid_to_docid_to_rank[run_name]]
         median_rank, retrieved_in_100, retrieved_in_10 = None, None, None

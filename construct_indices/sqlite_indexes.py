@@ -33,6 +33,7 @@ if __name__ == '__main__':
     #create_db('static/indexes/cranfield.json.gz')
     #create_db('static/indexes/vaswani.json.gz')
     #create_db('static/indexes/ir-lab-jena-leipzig-wise-2023.json.gz')
-    create_db('static/indexes/ir-lab-jena-leipzig-wise-2023-validation.json.gz')
+    #create_db('static/indexes/ir-lab-jena-leipzig-wise-2023-validation.json.gz')
+    create_db('static/indexes/ir-lab-jena-leipzig-sose-2023.json.gz')
     
     
