@@ -1,14 +1,6 @@
-# IR Lab WS 2023/24 at Leipzig/Jena
+# IR Lab SoSe 2023/24 at Leipzig/Jena
 
-See [https://tira-io.github.io/ir-lab-ws-23/](https://tira-io.github.io/ir-lab-ws-23/) for details.
-
-Some examples:
-
-- [Topic with high nDCG@10 variange](https://tira-io.github.io/ir-lab-ws-23/topics?topic=5&dataset=ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test)
-- [Topic with low nDCG@10 variance](https://tira-io.github.io/ir-lab-ws-23/topics?topic=16&dataset=ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test)
-- [Topic with single relevant document retrieved by almost all systems on position 1](https://tira-io.github.io/ir-lab-ws-23/topics?topic=19&dataset=ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test)
-- [Browsing some documents](https://tira-io.github.io/ir-lab-ws-23/docs?dataset=ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test&doc_ids=doc062201800042)
-- More examples to come.
+See [https://tira-io.github.io/ir-lab-sose-23/](https://tira-io.github.io/ir-lab-sose-23/) for details.
 
 Components:
 
