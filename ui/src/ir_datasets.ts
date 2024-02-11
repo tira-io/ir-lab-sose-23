@@ -13,7 +13,8 @@ let data_access = {
 
     'ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-jena-leipzig-wise-2023/ir-lab-jena-leipzig-wise-2023.db',
     'ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-jena-leipzig-wise-2023/ir-lab-jena-leipzig-wise-2023.db',
-    'ir-lab-jena-leipzig-wise-2023/validation-20231104-training': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-jena-leipzig-wise-2023/ir-lab-jena-leipzig-wise-2023-validation.db'
+    'ir-lab-jena-leipzig-wise-2023/validation-20231104-training': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-jena-leipzig-wise-2023/ir-lab-jena-leipzig-wise-2023-validation.db',
+    'ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-jena-leipzig-sose-2023/ir-lab-jena-leipzig-sose-2023.db'
 
   },
   'documents': {
@@ -28,7 +29,8 @@ let data_access = {
 
     'ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-jena-leipzig-wise-2023/inputs/jena-topics-20231026-test/documents.jsonl',
     'ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-jena-leipzig-wise-2023/inputs/jena-topics-20231026-test/documents.jsonl',
-    'ir-lab-jena-leipzig-wise-2023/validation-20231104-training': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-jena-leipzig-wise-2023/inputs/validation-20231104-training/documents.jsonl'
+    'ir-lab-jena-leipzig-wise-2023/validation-20231104-training': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-jena-leipzig-wise-2023/inputs/validation-20231104-training/documents.jsonl',
+    'ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training': 'https://files.webis.de/data-in-progress/dataset-explorer-in-progress/ir-lab-jena-leipzig-sose-2023/inputs/documents.jsonl'
   }
 }
 
