@@ -5,7 +5,7 @@ export async function execute_get(url: string, range: string): Promise<any> {
 		url = '/' + url
 
 		if (process.env.NODE_ENV !== 'development') {
-			url = '/ir-lab-ws-23' + url
+			url = '/ir-lab-sose-23' + url
 		}
 	}
 
