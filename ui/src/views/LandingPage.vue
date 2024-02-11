@@ -6,7 +6,7 @@
           IR Lab SoSe 2023 at Leipzig/Jena
         </h1>
         <p class="mx-auto py-4 tira-explanation">
-          During the <a target="_blank" href="https://temir.org/teaching/information-retrieval-ss23/information-retrieval-ss23.html">IR lab 2023</a> we did build domain-specific information retrieval systems for the <a href="https://ir.webis.de/" target="_blank">IR Anthology</a>. You can browse all the resulting systems and evaluations here.
+          During the <a target="_blank" href="https://temir.org/teaching/information-retrieval-ss23/information-retrieval-ss23.html">IR lab in summer semester 2023</a> we did build domain-specific information retrieval systems for the <a href="https://ir.webis.de/" target="_blank">IR Anthology</a>. You can browse all the resulting systems and evaluations here.
         </p>
         <v-row class="d-flex justify-center py-4">
           <v-col cols="auto">
