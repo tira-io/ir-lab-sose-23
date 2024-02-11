@@ -3,14 +3,14 @@
       <v-img class="mx-auto" height="300px" max-width="100%" width="300px" src="https://temir.org/img/index-cover-modified.png"/>
       <section>
         <h1 class="text-h3 text-sm-h3 py-4">
-          IR Lab WS 2023/24 at Leipzig/Jena
+          IR Lab SoSe 2023 at Leipzig/Jena
         </h1>
         <p class="mx-auto py-4 tira-explanation">
-          Still a bit work in progress, but you can already browse the topics, documents, and some runs. This will be finalized within one or two weeks :)
+          During the <a target="_blank" href="https://temir.org/teaching/information-retrieval-ss23/information-retrieval-ss23.html">IR lab 2023</a> we did build domain-specific information retrieval systems for the <a href="https://ir.webis.de/" target="_blank">IR Anthology</a>. You can browse all the resulting systems and evaluations here.
         </p>
         <v-row class="d-flex justify-center py-4">
           <v-col cols="auto">
-            <v-btn color="primary" href="https://temir.org/teaching/information-retrieval-ws23/information-retrieval-ws23.html" target="_blank"  min-width="228" rel="noopener noreferrer" size="x-large" variant="flat">
+            <v-btn color="primary" href="https://temir.org/teaching/information-retrieval-ss23/information-retrieval-ss23.html" target="_blank"  min-width="228" rel="noopener noreferrer" size="x-large" variant="flat">
               <v-icon icon="mdi-speedometer" size="large" start/>
               Course
             </v-btn>

@@ -1,3233 +1,2177 @@
 [
     {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
         "query_id": "1",
-        "default_text": "the frequency of solar storms with impact on electric circuits on earth",
-        "min_P@10": 0.0,
-        "max_P@10": 0.6,
-        "median_P@10": 0.3,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.694,
-        "median_nDCG@10": 0.235,
-        "min_Judged@10": 0.0,
+        "default_text": "retrieval system improving effectiveness",
+        "min_P@10": 0.2,
+        "max_P@10": 0.9,
+        "median_P@10": 0.8,
+        "min_nDCG@10": 0.179,
+        "max_nDCG@10": 0.936,
+        "median_nDCG@10": 0.854,
+        "min_Judged@10": 0.3,
         "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.023,
-        "var_P@10": 0.019,
-        "var_Judged@10": 0.122,
-        "run_details": {
-            "start": 0,
-            "end": 83530,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 0,
-            "end": 6217,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 0,
-            "end": 716,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "2",
-        "default_text": "popular pastries in germany",
-        "min_P@10": 0.0,
-        "max_P@10": 0.3,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.592,
-        "median_nDCG@10": 0.158,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.055,
-        "var_P@10": 0.014,
-        "var_Judged@10": 0.156,
-        "run_details": {
-            "start": 83531,
-            "end": 177160,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 6218,
-            "end": 16930,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 717,
-            "end": 1244,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "3",
-        "default_text": "flights Frankfurt to Rome",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.133,
-        "run_details": {
-            "start": 177161,
-            "end": 262809,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 16931,
-            "end": 25574,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 1245,
-            "end": 1711,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "4",
-        "default_text": "remove wine stains",
-        "min_P@10": 0.0,
-        "max_P@10": 0.8,
-        "median_P@10": 0.7,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.842,
-        "median_nDCG@10": 0.766,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.041,
-        "var_P@10": 0.058,
-        "var_Judged@10": 0.042,
-        "run_details": {
-            "start": 262810,
-            "end": 350956,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 25575,
-            "end": 33831,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 1712,
-            "end": 2084,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "5",
-        "default_text": "tipping in us",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.631,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.018,
-        "var_P@10": 0.001,
-        "var_Judged@10": 0.132,
-        "run_details": {
-            "start": 350957,
-            "end": 442552,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 33832,
-            "end": 43415,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 2085,
-            "end": 2581,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "6",
-        "default_text": "download python",
-        "min_P@10": 0.0,
-        "max_P@10": 0.2,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.398,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.013,
-        "var_P@10": 0.004,
+        "median_Judged@10": 0.95,
+        "var_nDCG@10": 0.042,
+        "var_P@10": 0.042,
         "var_Judged@10": 0.063,
         "run_details": {
-            "start": 442553,
-            "end": 530478,
+            "start": 0,
+            "end": 67210,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 43416,
-            "end": 49827,
+            "start": 0,
+            "end": 9576,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 2582,
-            "end": 3035,
+            "start": 0,
+            "end": 525,
             "path": "qrel-details.jsonl"
         }
     },
     {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "7",
-        "default_text": "buy bicycle lock Jena",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.061,
-        "run_details": {
-            "start": 530479,
-            "end": 625783,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 49828,
-            "end": 59598,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 3036,
-            "end": 3454,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "8",
-        "default_text": "Current head of state of germany",
-        "min_P@10": 0.0,
-        "max_P@10": 0.2,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.571,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.85,
-        "var_nDCG@10": 0.016,
-        "var_P@10": 0.003,
-        "var_Judged@10": 0.098,
-        "run_details": {
-            "start": 625784,
-            "end": 724465,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 59599,
-            "end": 71070,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 3455,
-            "end": 4006,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "9",
-        "default_text": "fastest route jena leipzig",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.112,
-        "run_details": {
-            "start": 724466,
-            "end": 817738,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 71071,
-            "end": 79331,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 4007,
-            "end": 4618,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "10",
-        "default_text": "lost my keys what now",
-        "min_P@10": 0.0,
-        "max_P@10": 1.0,
-        "median_P@10": 0.5,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 0.412,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.112,
-        "var_P@10": 0.11,
-        "var_Judged@10": 0.082,
-        "run_details": {
-            "start": 817739,
-            "end": 912207,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 79332,
-            "end": 87839,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 4619,
-            "end": 5156,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "11",
-        "default_text": "an apple everyday healthy?",
-        "min_P@10": 0.0,
-        "max_P@10": 0.4,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.502,
-        "median_nDCG@10": 0.172,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.013,
-        "var_P@10": 0.008,
-        "var_Judged@10": 0.07,
-        "run_details": {
-            "start": 912208,
-            "end": 1003736,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 87840,
-            "end": 95782,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 5157,
-            "end": 5668,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "12",
-        "default_text": "what temperature for green tea",
-        "min_P@10": 0.0,
-        "max_P@10": 0.8,
-        "median_P@10": 0.3,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.956,
-        "median_nDCG@10": 0.503,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.025,
-        "var_P@10": 0.021,
-        "var_Judged@10": 0.048,
-        "run_details": {
-            "start": 1003737,
-            "end": 1091783,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 95783,
-            "end": 102415,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 5669,
-            "end": 6164,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "13",
-        "default_text": "probability of snow in december in jena",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.115,
-        "run_details": {
-            "start": 1091784,
-            "end": 1194284,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 102416,
-            "end": 112633,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 6165,
-            "end": 6705,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "14",
-        "default_text": "how to screenshot windows",
-        "min_P@10": 0.0,
-        "max_P@10": 0.7,
-        "median_P@10": 0.4,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.681,
-        "median_nDCG@10": 0.466,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.022,
-        "var_P@10": 0.021,
-        "var_Judged@10": 0.048,
-        "run_details": {
-            "start": 1194285,
-            "end": 1282949,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 112634,
-            "end": 120201,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 6706,
-            "end": 7195,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "15",
-        "default_text": "what is my ip address",
-        "min_P@10": 0.0,
-        "max_P@10": 1.0,
-        "median_P@10": 1.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 1.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.057,
-        "var_P@10": 0.052,
-        "var_Judged@10": 0.052,
-        "run_details": {
-            "start": 1282950,
-            "end": 1370303,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 120202,
-            "end": 127017,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 7196,
-            "end": 7700,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "16",
-        "default_text": "how to exit vim",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.631,
-        "median_nDCG@10": 0.315,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.017,
-        "var_P@10": 0.001,
-        "var_Judged@10": 0.09,
-        "run_details": {
-            "start": 1370304,
-            "end": 1458512,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 295075,
-            "end": 300966,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 7701,
-            "end": 8166,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "17",
-        "default_text": "martin garrix animals bpm",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.064,
-        "run_details": {
-            "start": 1458513,
-            "end": 1547136,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 300967,
-            "end": 309845,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 8167,
-            "end": 8608,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "18",
-        "default_text": "upcoming movies 2023",
-        "min_P@10": 0.0,
-        "max_P@10": 0.4,
-        "median_P@10": 0.25,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.525,
-        "median_nDCG@10": 0.21,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.8,
-        "var_nDCG@10": 0.027,
-        "var_P@10": 0.027,
-        "var_Judged@10": 0.088,
-        "run_details": {
-            "start": 1547137,
-            "end": 1644293,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 309846,
-            "end": 319665,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 8609,
-            "end": 9081,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "19",
-        "default_text": "science fiction books",
-        "min_P@10": 0.0,
-        "max_P@10": 0.6,
-        "median_P@10": 0.5,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.643,
-        "median_nDCG@10": 0.555,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.031,
-        "var_P@10": 0.022,
-        "var_Judged@10": 0.09,
-        "run_details": {
-            "start": 1644294,
-            "end": 1739813,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 319666,
-            "end": 327801,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 9082,
-            "end": 9541,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "20",
-        "default_text": "wikipedia timo boll",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.094,
-        "run_details": {
-            "start": 1739814,
-            "end": 1826790,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 327802,
-            "end": 334621,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 9542,
-            "end": 10058,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "21",
-        "default_text": "Knowledge Graphs in Information Retrieval",
-        "min_P@10": 0.0,
-        "max_P@10": 0.4,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.725,
-        "median_nDCG@10": 0.303,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.85,
-        "var_nDCG@10": 0.026,
-        "var_P@10": 0.009,
-        "var_Judged@10": 0.064,
-        "run_details": {
-            "start": 1826791,
-            "end": 1921366,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 334622,
-            "end": 344441,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 10059,
-            "end": 10961,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "22",
-        "default_text": "DuckDuckGo Search Engine",
-        "min_P@10": 0.0,
-        "max_P@10": 0.8,
-        "median_P@10": 0.7,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.9,
-        "median_nDCG@10": 0.822,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.036,
-        "var_P@10": 0.026,
-        "var_Judged@10": 0.028,
-        "run_details": {
-            "start": 1921367,
-            "end": 2003894,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 344442,
-            "end": 350511,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 10962,
-            "end": 11699,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "23",
-        "default_text": "Friedrich Schiller University of Jena (FSU Jena)",
-        "min_P@10": 0.0,
-        "max_P@10": 0.9,
-        "median_P@10": 0.75,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.934,
-        "median_nDCG@10": 0.817,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.048,
-        "var_P@10": 0.051,
-        "var_Judged@10": 0.047,
-        "run_details": {
-            "start": 2003895,
-            "end": 2090646,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 350512,
-            "end": 356958,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 11700,
-            "end": 12451,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "24",
-        "default_text": "System Accreditation in Education",
-        "min_P@10": 0.0,
-        "max_P@10": 0.3,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.676,
-        "median_nDCG@10": 0.193,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.041,
-        "var_P@10": 0.008,
-        "var_Judged@10": 0.046,
-        "run_details": {
-            "start": 2090647,
-            "end": 2181395,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 356959,
-            "end": 365652,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 12452,
-            "end": 13267,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "25",
-        "default_text": "Biodiversity Conservation and Importance",
-        "min_P@10": 0.0,
-        "max_P@10": 0.5,
-        "median_P@10": 0.4,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.429,
-        "median_nDCG@10": 0.296,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.012,
-        "var_P@10": 0.018,
-        "var_Judged@10": 0.094,
-        "run_details": {
-            "start": 2181396,
-            "end": 2273579,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 365653,
-            "end": 373232,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 13268,
-            "end": 14033,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "26",
-        "default_text": "Top smartphone reviews 2023",
-        "min_P@10": 0.0,
-        "max_P@10": 0.3,
-        "median_P@10": 0.15,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.409,
-        "median_nDCG@10": 0.173,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.014,
-        "var_P@10": 0.007,
-        "var_Judged@10": 0.074,
-        "run_details": {
-            "start": 2273580,
-            "end": 2375858,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 373233,
-            "end": 386802,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 14034,
-            "end": 14533,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "27",
-        "default_text": "Taylor Swift concert New York tickets",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.087,
-        "run_details": {
-            "start": 2375859,
-            "end": 2474194,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 386803,
-            "end": 396253,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 14534,
-            "end": 14999,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "28",
-        "default_text": "Online piano lessons for beginners",
-        "min_P@10": 0.0,
-        "max_P@10": 0.4,
-        "median_P@10": 0.3,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.812,
-        "median_nDCG@10": 0.66,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.065,
-        "var_P@10": 0.013,
-        "var_Judged@10": 0.046,
-        "run_details": {
-            "start": 2474195,
-            "end": 2557504,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 396254,
-            "end": 401386,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 15000,
-            "end": 15476,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "29",
-        "default_text": "Japan passport application government site",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.074,
-        "run_details": {
-            "start": 2557505,
-            "end": 2653216,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 401387,
-            "end": 412135,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 15477,
-            "end": 16013,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "30",
-        "default_text": "Climate change causes and effects",
-        "min_P@10": 0.0,
-        "max_P@10": 1.0,
-        "median_P@10": 0.8,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 0.863,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.08,
-        "var_P@10": 0.075,
-        "var_Judged@10": 0.083,
-        "run_details": {
-            "start": 2653217,
-            "end": 2752910,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 412136,
-            "end": 423490,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 16014,
-            "end": 16596,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "31",
-        "default_text": "Home Assistant unavailable",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.091,
-        "run_details": {
-            "start": 2752911,
-            "end": 2848089,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 423491,
-            "end": 435005,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 16597,
-            "end": 17258,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "32",
-        "default_text": "ESPHome disable IPv6",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.073,
-        "run_details": {
-            "start": 2848090,
-            "end": 2931018,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 435006,
-            "end": 441825,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 17259,
-            "end": 17699,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "33",
-        "default_text": "aadl tools",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 0.333,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.044,
-        "var_P@10": 0.002,
-        "var_Judged@10": 0.047,
-        "run_details": {
-            "start": 2931019,
-            "end": 3015885,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 441826,
-            "end": 448645,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 17700,
-            "end": 18220,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "34",
-        "default_text": "3D print warping",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 0.631,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.95,
-        "var_nDCG@10": 0.153,
-        "var_P@10": 0.002,
-        "var_Judged@10": 0.085,
-        "run_details": {
-            "start": 3015886,
-            "end": 3109473,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 448646,
-            "end": 457892,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 18221,
-            "end": 18669,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "35",
-        "default_text": "OpenGL setup",
-        "min_P@10": 0.0,
-        "max_P@10": 0.4,
-        "median_P@10": 0.4,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 0.608,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.053,
-        "var_P@10": 0.011,
-        "var_Judged@10": 0.032,
-        "run_details": {
-            "start": 3109474,
-            "end": 3193444,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 457893,
-            "end": 464903,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 18670,
-            "end": 19130,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "36",
-        "default_text": "fontawesome angular",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.071,
-        "run_details": {
-            "start": 3193445,
-            "end": 3279980,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 127018,
-            "end": 134598,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 19131,
-            "end": 19672,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "37",
-        "default_text": "flat roof cons",
-        "min_P@10": 0.0,
-        "max_P@10": 0.2,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.671,
-        "median_nDCG@10": 0.149,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.031,
-        "var_P@10": 0.004,
-        "var_Judged@10": 0.088,
-        "run_details": {
-            "start": 3279981,
-            "end": 3377920,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 134599,
-            "end": 143093,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 19673,
-            "end": 20208,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "38",
-        "default_text": "raspberry pi power consumption",
-        "min_P@10": 0.0,
-        "max_P@10": 0.3,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.465,
-        "median_nDCG@10": 0.297,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.017,
-        "var_P@10": 0.007,
-        "var_Judged@10": 0.072,
-        "run_details": {
-            "start": 3377921,
-            "end": 3465570,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 143094,
-            "end": 148786,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 20209,
-            "end": 20860,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "39",
-        "default_text": "light motion detector types",
-        "min_P@10": 0.0,
-        "max_P@10": 0.3,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.793,
-        "median_nDCG@10": 0.432,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.033,
-        "var_P@10": 0.007,
-        "var_Judged@10": 0.059,
-        "run_details": {
-            "start": 3465571,
-            "end": 3553226,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 148787,
-            "end": 155425,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 20861,
-            "end": 21595,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "40",
-        "default_text": "czk to eur",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 0.431,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.089,
-        "var_P@10": 0.002,
-        "var_Judged@10": 0.095,
-        "run_details": {
-            "start": 3553227,
-            "end": 3647096,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 155426,
-            "end": 162613,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 21596,
-            "end": 22033,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "41",
-        "default_text": "pumpkin soup",
-        "min_P@10": 0.0,
-        "max_P@10": 0.5,
-        "median_P@10": 0.3,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.863,
-        "median_nDCG@10": 0.583,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.036,
-        "var_P@10": 0.013,
-        "var_Judged@10": 0.08,
-        "run_details": {
-            "start": 3647097,
-            "end": 3734887,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 162614,
-            "end": 168132,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 22034,
-            "end": 22567,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "42",
-        "default_text": "turn off pocket mode",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.95,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.081,
-        "run_details": {
-            "start": 3734888,
-            "end": 3832260,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 168133,
-            "end": 177953,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 22568,
-            "end": 22918,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "43",
-        "default_text": "potpourri",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.067,
-        "run_details": {
-            "start": 3832261,
-            "end": 3917038,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 177954,
-            "end": 184777,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 22919,
-            "end": 23230,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "44",
-        "default_text": "state election hessen 2023",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.072,
-        "run_details": {
-            "start": 3917039,
-            "end": 4014354,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 184778,
-            "end": 197814,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 23231,
-            "end": 23805,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "45",
-        "default_text": "turtle species list",
-        "min_P@10": 0.0,
-        "max_P@10": 0.5,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.837,
-        "median_nDCG@10": 0.108,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.057,
-        "var_P@10": 0.023,
-        "var_Judged@10": 0.055,
-        "run_details": {
-            "start": 4014355,
-            "end": 4105515,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 197815,
-            "end": 206307,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 23806,
-            "end": 24137,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "46",
-        "default_text": "time change germany",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.101,
-        "var_P@10": 0.001,
-        "var_Judged@10": 0.1,
-        "run_details": {
-            "start": 4105516,
-            "end": 4208975,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 206308,
-            "end": 222386,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 24138,
-            "end": 24581,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "47",
-        "default_text": "water daily need",
-        "min_P@10": 0.0,
-        "max_P@10": 0.3,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.611,
-        "median_nDCG@10": 0.098,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.023,
-        "var_P@10": 0.012,
-        "var_Judged@10": 0.08,
-        "run_details": {
-            "start": 4208976,
-            "end": 4309369,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 222387,
-            "end": 234850,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 24582,
-            "end": 25047,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "48",
-        "default_text": "canteen jena",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.111,
-        "run_details": {
-            "start": 4309370,
-            "end": 4400894,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 234851,
-            "end": 243352,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 25048,
-            "end": 25494,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "49",
-        "default_text": "penspinning",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 0.8,
-        "median_Judged@10": 0.8,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.078,
-        "run_details": {
-            "start": 4400895,
-            "end": 4475428,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 243353,
-            "end": 244941,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 25495,
-            "end": 25901,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "50",
-        "default_text": "stairs Jentower",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.094,
-        "run_details": {
-            "start": 4475429,
-            "end": 4564980,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 244942,
-            "end": 251956,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 25902,
-            "end": 26320,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "51",
-        "default_text": "meditation for stress",
-        "min_P@10": 0.0,
-        "max_P@10": 0.5,
-        "median_P@10": 0.4,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.627,
-        "median_nDCG@10": 0.471,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.043,
-        "var_P@10": 0.025,
-        "var_Judged@10": 0.066,
-        "run_details": {
-            "start": 4564981,
-            "end": 4651205,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 251957,
-            "end": 258401,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 26321,
-            "end": 27058,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "52",
-        "default_text": "trend of ocean pollution",
-        "min_P@10": 0.0,
-        "max_P@10": 0.4,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.507,
-        "median_nDCG@10": 0.265,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.009,
-        "var_P@10": 0.007,
-        "var_Judged@10": 0.061,
-        "run_details": {
-            "start": 4651206,
-            "end": 4740856,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 258402,
-            "end": 267666,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 27059,
-            "end": 27786,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "53",
-        "default_text": "balanced vegan diet",
-        "min_P@10": 0.0,
-        "max_P@10": 0.7,
-        "median_P@10": 0.6,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.65,
-        "median_nDCG@10": 0.545,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.042,
-        "var_P@10": 0.05,
-        "var_Judged@10": 0.071,
-        "run_details": {
-            "start": 4740857,
-            "end": 4824900,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 267667,
-            "end": 273175,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 27787,
-            "end": 28530,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "54",
-        "default_text": "business informatics jobs asti",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.08,
-        "run_details": {
-            "start": 4824901,
-            "end": 4922614,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 273176,
-            "end": 284681,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 28531,
-            "end": 29383,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/jena-topics-20231026-test",
-        "query_id": "55",
-        "default_text": "decorate small spaces on a budget ",
-        "min_P@10": 0.0,
-        "max_P@10": 0.5,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.508,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.8,
-        "var_nDCG@10": 0.015,
-        "var_P@10": 0.01,
-        "var_Judged@10": 0.085,
-        "run_details": {
-            "start": 4922615,
-            "end": 5019372,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 284682,
-            "end": 295074,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 29384,
-            "end": 30364,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "1",
-        "default_text": "develop film at home",
-        "min_P@10": 0.0,
-        "max_P@10": 0.3,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.613,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.027,
-        "var_P@10": 0.007,
-        "var_Judged@10": 0.153,
-        "run_details": {
-            "start": 5019373,
-            "end": 5115301,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 571618,
-            "end": 585711,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 30365,
-            "end": 31040,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
         "query_id": "2",
-        "default_text": "wildfire prevention",
-        "min_P@10": 0.0,
-        "max_P@10": 0.8,
-        "median_P@10": 0.7,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.826,
-        "median_nDCG@10": 0.76,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.07,
-        "var_P@10": 0.06,
-        "var_Judged@10": 0.105,
-        "run_details": {
-            "start": 5115302,
-            "end": 5200160,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 585712,
-            "end": 593505,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 31041,
-            "end": 31406,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "3",
-        "default_text": "drone legislation",
-        "min_P@10": 0.0,
-        "max_P@10": 0.6,
-        "median_P@10": 0.3,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.641,
-        "median_nDCG@10": 0.379,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.023,
-        "var_P@10": 0.019,
-        "var_Judged@10": 0.104,
-        "run_details": {
-            "start": 5200161,
-            "end": 5284524,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 593506,
-            "end": 600747,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 31407,
-            "end": 31867,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "4",
-        "default_text": "artificial intelligence applications",
-        "min_P@10": 0.0,
-        "max_P@10": 0.9,
-        "median_P@10": 0.8,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.934,
-        "median_nDCG@10": 0.848,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.027,
-        "var_P@10": 0.029,
-        "var_Judged@10": 0.039,
-        "run_details": {
-            "start": 5284525,
-            "end": 5379969,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 600748,
-            "end": 610238,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 31868,
-            "end": 32335,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "5",
-        "default_text": "remove red wine couch",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 0.356,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.155,
-        "var_P@10": 0.002,
-        "var_Judged@10": 0.029,
-        "run_details": {
-            "start": 5379970,
-            "end": 5477980,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 610239,
-            "end": 621240,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 32336,
-            "end": 32982,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "6",
-        "default_text": "spoken language in india",
-        "min_P@10": 0.0,
-        "max_P@10": 0.3,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.947,
-        "median_nDCG@10": 0.453,
-        "min_Judged@10": 0.2,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.049,
-        "var_P@10": 0.006,
-        "var_Judged@10": 0.047,
-        "run_details": {
-            "start": 5477981,
-            "end": 5572923,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 621241,
-            "end": 630925,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 32983,
-            "end": 33715,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "7",
-        "default_text": "islands in japan",
-        "min_P@10": 0.1,
-        "max_P@10": 0.6,
-        "median_P@10": 0.5,
-        "min_nDCG@10": 0.064,
-        "max_nDCG@10": 0.672,
-        "median_nDCG@10": 0.636,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.033,
-        "var_P@10": 0.025,
-        "var_Judged@10": 0.069,
-        "run_details": {
-            "start": 5572924,
-            "end": 5667909,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 630926,
-            "end": 639854,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 33716,
-            "end": 34296,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "8",
-        "default_text": "best restaurants new york",
-        "min_P@10": 0.1,
-        "max_P@10": 0.8,
-        "median_P@10": 0.6,
-        "min_nDCG@10": 0.13,
-        "max_nDCG@10": 0.849,
-        "median_nDCG@10": 0.637,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.041,
-        "var_P@10": 0.036,
-        "var_Judged@10": 0.048,
-        "run_details": {
-            "start": 5667910,
-            "end": 5768339,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 639855,
-            "end": 653336,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 34297,
-            "end": 34913,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "9",
-        "default_text": "vegan alternatives to common dairy products",
-        "min_P@10": 0.1,
-        "max_P@10": 0.5,
-        "median_P@10": 0.3,
-        "min_nDCG@10": 0.069,
-        "max_nDCG@10": 0.649,
-        "median_nDCG@10": 0.305,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.013,
-        "var_P@10": 0.008,
-        "var_Judged@10": 0.056,
-        "run_details": {
-            "start": 5768340,
-            "end": 5861135,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 653337,
-            "end": 660949,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 34914,
-            "end": 35396,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "10",
-        "default_text": "autonomous cars in real traffic conditions",
-        "min_P@10": 0.1,
-        "max_P@10": 0.7,
-        "median_P@10": 0.4,
-        "min_nDCG@10": 0.095,
-        "max_nDCG@10": 0.69,
-        "median_nDCG@10": 0.407,
-        "min_Judged@10": 0.2,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.015,
-        "var_P@10": 0.019,
-        "var_Judged@10": 0.039,
-        "run_details": {
-            "start": 5861136,
-            "end": 5952330,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 660950,
-            "end": 669542,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 35397,
-            "end": 36128,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "11",
-        "default_text": "origins and spread of the silk road trade routes",
+        "default_text": "machine learning language identification",
         "min_P@10": 0.2,
-        "max_P@10": 0.6,
-        "median_P@10": 0.5,
-        "min_nDCG@10": 0.29,
-        "max_nDCG@10": 0.696,
-        "median_nDCG@10": 0.602,
+        "max_P@10": 0.7,
+        "median_P@10": 0.6,
+        "min_nDCG@10": 0.249,
+        "max_nDCG@10": 0.773,
+        "median_nDCG@10": 0.716,
+        "min_Judged@10": 0.3,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.011,
+        "var_P@10": 0.011,
+        "var_Judged@10": 0.024,
+        "run_details": {
+            "start": 67211,
+            "end": 122839,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 9577,
+            "end": 16368,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 526,
+            "end": 1046,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "3",
+        "default_text": "social media detect self-harm",
+        "min_P@10": 0.3,
+        "max_P@10": 0.9,
+        "median_P@10": 0.9,
+        "min_nDCG@10": 0.291,
+        "max_nDCG@10": 0.78,
+        "median_nDCG@10": 0.78,
         "min_Judged@10": 0.6,
         "max_Judged@10": 1.0,
         "median_Judged@10": 1.0,
         "var_nDCG@10": 0.013,
-        "var_P@10": 0.013,
-        "var_Judged@10": 0.02,
+        "var_P@10": 0.022,
+        "var_Judged@10": 0.015,
         "run_details": {
-            "start": 5952331,
-            "end": 6040235,
+            "start": 122840,
+            "end": 176732,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 669543,
-            "end": 676818,
+            "start": 16369,
+            "end": 23167,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 36129,
-            "end": 36891,
+            "start": 1047,
+            "end": 1643,
             "path": "qrel-details.jsonl"
         }
     },
     {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "12",
-        "default_text": "recommended daily step count for optimal health",
-        "min_P@10": 0.0,
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "4",
+        "default_text": "stemming for arabic languages",
+        "min_P@10": 0.4,
+        "max_P@10": 1.0,
+        "median_P@10": 0.9,
+        "min_nDCG@10": 0.332,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.936,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.95,
+        "var_nDCG@10": 0.018,
+        "var_P@10": 0.013,
+        "var_Judged@10": 0.019,
+        "run_details": {
+            "start": 176733,
+            "end": 229396,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 23168,
+            "end": 28165,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 1644,
+            "end": 2098,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "5",
+        "default_text": "audio based animal recognition",
+        "min_P@10": 0.2,
+        "max_P@10": 0.8,
+        "median_P@10": 0.2,
+        "min_nDCG@10": 0.149,
+        "max_nDCG@10": 0.87,
+        "median_nDCG@10": 0.359,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.021,
+        "var_P@10": 0.023,
+        "var_Judged@10": 0.062,
+        "run_details": {
+            "start": 229397,
+            "end": 290807,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 28166,
+            "end": 37435,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 2099,
+            "end": 2523,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "6",
+        "default_text": "Comparison different retrieval models",
+        "min_P@10": 0.1,
         "max_P@10": 0.6,
-        "median_P@10": 0.3,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.892,
-        "median_nDCG@10": 0.589,
+        "median_P@10": 0.45,
+        "min_nDCG@10": 0.066,
+        "max_nDCG@10": 0.668,
+        "median_nDCG@10": 0.55,
         "min_Judged@10": 0.1,
         "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.057,
-        "var_P@10": 0.024,
-        "var_Judged@10": 0.076,
+        "median_Judged@10": 0.75,
+        "var_nDCG@10": 0.045,
+        "var_P@10": 0.031,
+        "var_Judged@10": 0.116,
         "run_details": {
-            "start": 6040236,
-            "end": 6140317,
+            "start": 290808,
+            "end": 358622,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 676819,
-            "end": 688075,
+            "start": 37436,
+            "end": 46986,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 36892,
-            "end": 37429,
+            "start": 2524,
+            "end": 2982,
             "path": "qrel-details.jsonl"
         }
     },
     {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "7",
+        "default_text": "Cache architecture",
+        "min_P@10": 0.4,
+        "max_P@10": 1.0,
+        "median_P@10": 0.9,
+        "min_nDCG@10": 0.489,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.934,
+        "min_Judged@10": 0.5,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.024,
+        "var_P@10": 0.039,
+        "var_Judged@10": 0.022,
+        "run_details": {
+            "start": 358623,
+            "end": 417948,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 46987,
+            "end": 53590,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 2983,
+            "end": 3377,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "8",
+        "default_text": "Document scoping formula",
+        "min_P@10": 0.0,
+        "max_P@10": 0.2,
+        "median_P@10": 0.1,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.626,
+        "median_nDCG@10": 0.249,
+        "min_Judged@10": 0.1,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.05,
+        "var_P@10": 0.005,
+        "var_Judged@10": 0.088,
+        "run_details": {
+            "start": 417949,
+            "end": 481468,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 53591,
+            "end": 62314,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 3378,
+            "end": 3760,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "9",
+        "default_text": "Pseudo-relevance feedback",
+        "min_P@10": 0.0,
+        "max_P@10": 0.3,
+        "median_P@10": 0.3,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.226,
+        "median_nDCG@10": 0.22,
+        "min_Judged@10": 0.1,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.005,
+        "var_P@10": 0.011,
+        "var_Judged@10": 0.085,
+        "run_details": {
+            "start": 481469,
+            "end": 538333,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 62315,
+            "end": 68864,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 3761,
+            "end": 4146,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "10",
+        "default_text": "How to represent natural conversations in word nets",
+        "min_P@10": 0.0,
+        "max_P@10": 0.2,
+        "median_P@10": 0.1,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.29,
+        "median_nDCG@10": 0.073,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.85,
+        "var_nDCG@10": 0.005,
+        "var_P@10": 0.003,
+        "var_Judged@10": 0.087,
+        "run_details": {
+            "start": 538334,
+            "end": 603977,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 68865,
+            "end": 77297,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 4147,
+            "end": 4678,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "11",
+        "default_text": "Algorithm acceleration with Nvidia CUDA",
+        "min_P@10": 0.0,
+        "max_P@10": 0.3,
+        "median_P@10": 0.3,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.684,
+        "median_nDCG@10": 0.655,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.04,
+        "var_P@10": 0.008,
+        "var_Judged@10": 0.062,
+        "run_details": {
+            "start": 603978,
+            "end": 664102,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 77298,
+            "end": 85913,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 4679,
+            "end": 5184,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "12",
+        "default_text": "mention of algorithm",
+        "min_P@10": 0.0,
+        "max_P@10": 0.9,
+        "median_P@10": 0.8,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.915,
+        "median_nDCG@10": 0.811,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.056,
+        "var_P@10": 0.069,
+        "var_Judged@10": 0.089,
+        "run_details": {
+            "start": 664103,
+            "end": 724928,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 85914,
+            "end": 93868,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 5185,
+            "end": 5517,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
         "query_id": "13",
-        "default_text": "recognize phishing attack",
+        "default_text": "at least three authors",
+        "min_P@10": 0.0,
+        "max_P@10": 0.5,
+        "median_P@10": 0.4,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.42,
+        "median_nDCG@10": 0.352,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.013,
+        "var_P@10": 0.017,
+        "var_Judged@10": 0.09,
+        "run_details": {
+            "start": 724929,
+            "end": 790285,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 93869,
+            "end": 103317,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 5518,
+            "end": 5831,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "14",
+        "default_text": "German domain",
+        "min_P@10": 0.0,
+        "max_P@10": 0.0,
+        "median_P@10": 0.0,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.0,
+        "median_nDCG@10": 0.0,
+        "min_Judged@10": 0.3,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.0,
+        "var_P@10": 0.0,
+        "var_Judged@10": 0.075,
+        "run_details": {
+            "start": 790286,
+            "end": 846822,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 103318,
+            "end": 111426,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 5832,
+            "end": 6115,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "15",
+        "default_text": " mention of open source ",
+        "min_P@10": 0.1,
+        "max_P@10": 0.5,
+        "median_P@10": 0.45,
+        "min_nDCG@10": 0.14,
+        "max_nDCG@10": 0.642,
+        "median_nDCG@10": 0.597,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.9,
+        "var_nDCG@10": 0.022,
+        "var_P@10": 0.012,
+        "var_Judged@10": 0.077,
+        "run_details": {
+            "start": 846823,
+            "end": 911009,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 111427,
+            "end": 120912,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 6116,
+            "end": 6455,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "16",
+        "default_text": "Inclusion of text-mining",
+        "min_P@10": 0.2,
+        "max_P@10": 1.0,
+        "median_P@10": 0.9,
+        "min_nDCG@10": 0.176,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.931,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.065,
+        "var_P@10": 0.079,
+        "var_Judged@10": 0.079,
+        "run_details": {
+            "start": 911010,
+            "end": 973501,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 120913,
+            "end": 129340,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 6456,
+            "end": 6786,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "17",
+        "default_text": "The Ethics of Artificial Intelligence",
+        "min_P@10": 0.0,
+        "max_P@10": 0.8,
+        "median_P@10": 0.4,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.715,
+        "median_nDCG@10": 0.542,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.03,
+        "var_P@10": 0.037,
+        "var_Judged@10": 0.065,
+        "run_details": {
+            "start": 973502,
+            "end": 1034973,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 129341,
+            "end": 139273,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 6787,
+            "end": 7287,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "19",
+        "default_text": "machine learning for more relevant results",
         "min_P@10": 0.1,
         "max_P@10": 0.8,
-        "median_P@10": 0.6,
-        "min_nDCG@10": 0.139,
-        "max_nDCG@10": 0.824,
-        "median_nDCG@10": 0.615,
+        "median_P@10": 0.8,
+        "min_nDCG@10": 0.095,
+        "max_nDCG@10": 0.864,
+        "median_nDCG@10": 0.849,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.95,
+        "var_nDCG@10": 0.054,
+        "var_P@10": 0.041,
+        "var_Judged@10": 0.049,
+        "run_details": {
+            "start": 1096443,
+            "end": 1160536,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 139274,
+            "end": 148605,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 7288,
+            "end": 7775,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "20",
+        "default_text": "Crawling websites using machine learning",
+        "min_P@10": 0.1,
+        "max_P@10": 0.3,
+        "median_P@10": 0.3,
+        "min_nDCG@10": 0.071,
+        "max_nDCG@10": 0.457,
+        "median_nDCG@10": 0.391,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.016,
+        "var_P@10": 0.004,
+        "var_Judged@10": 0.037,
+        "run_details": {
+            "start": 1160537,
+            "end": 1221573,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 148606,
+            "end": 155965,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 7776,
+            "end": 8282,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "21",
+        "default_text": "Recommenders influence on users",
+        "min_P@10": 0.1,
+        "max_P@10": 0.5,
+        "median_P@10": 0.1,
+        "min_nDCG@10": 0.073,
+        "max_nDCG@10": 0.583,
+        "median_nDCG@10": 0.098,
         "min_Judged@10": 0.2,
         "max_Judged@10": 1.0,
         "median_Judged@10": 1.0,
         "var_nDCG@10": 0.013,
-        "var_P@10": 0.012,
-        "var_Judged@10": 0.021,
-        "run_details": {
-            "start": 6140318,
-            "end": 6228032,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 688076,
-            "end": 696474,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 37430,
-            "end": 37936,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "14",
-        "default_text": "evolution of the alphabet",
-        "min_P@10": 0.0,
-        "max_P@10": 0.6,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.722,
-        "median_nDCG@10": 0.315,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.028,
-        "var_P@10": 0.023,
-        "var_Judged@10": 0.03,
-        "run_details": {
-            "start": 6228033,
-            "end": 6319560,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 696475,
-            "end": 707716,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 37937,
-            "end": 38440,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "15",
-        "default_text": "dropshipping",
-        "min_P@10": 0.0,
-        "max_P@10": 0.7,
-        "median_P@10": 0.7,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.722,
-        "median_nDCG@10": 0.606,
-        "min_Judged@10": 0.2,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.015,
-        "var_P@10": 0.027,
-        "var_Judged@10": 0.025,
-        "run_details": {
-            "start": 6319561,
-            "end": 6406581,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 707717,
-            "end": 715181,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 38441,
-            "end": 38977,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "16",
-        "default_text": "install linux on windows machine",
-        "min_P@10": 0.0,
-        "max_P@10": 0.5,
-        "median_P@10": 0.4,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.62,
-        "median_nDCG@10": 0.451,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.012,
-        "var_P@10": 0.013,
-        "var_Judged@10": 0.034,
-        "run_details": {
-            "start": 6406582,
-            "end": 6497600,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 715182,
-            "end": 722638,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 38978,
-            "end": 39631,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "17",
-        "default_text": "improving image quality using generative adversarial networks",
-        "min_P@10": 0.0,
-        "max_P@10": 0.2,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 1.0,
-        "min_Judged@10": 0.4,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.8,
-        "var_nDCG@10": 0.066,
-        "var_P@10": 0.002,
-        "var_Judged@10": 0.04,
-        "run_details": {
-            "start": 6497601,
-            "end": 6595029,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 722639,
-            "end": 736955,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 39632,
-            "end": 40215,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "18",
-        "default_text": "hate speech detection",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.631,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.026,
-        "var_P@10": 0.001,
-        "var_Judged@10": 0.038,
-        "run_details": {
-            "start": 6595030,
-            "end": 6688164,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 736956,
-            "end": 745753,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 40216,
-            "end": 40575,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "19",
-        "default_text": "entity recognition for managing great amounts of data",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 1.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.026,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.069,
-        "run_details": {
-            "start": 6688165,
-            "end": 6788328,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 745754,
-            "end": 757179,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 40576,
-            "end": 41211,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "20",
-        "default_text": "fine-tuning large language models",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.307,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.01,
-        "var_P@10": 0.002,
-        "var_Judged@10": 0.087,
-        "run_details": {
-            "start": 6788329,
-            "end": 6890429,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 757180,
-            "end": 769753,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 41212,
-            "end": 41800,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "21",
-        "default_text": "reduce risk cardiovascular disease",
-        "min_P@10": 0.1,
-        "max_P@10": 0.9,
-        "median_P@10": 0.7,
-        "min_nDCG@10": 0.066,
-        "max_nDCG@10": 0.927,
-        "median_nDCG@10": 0.742,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.027,
-        "var_P@10": 0.029,
-        "var_Judged@10": 0.051,
-        "run_details": {
-            "start": 6890430,
-            "end": 6982920,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 769754,
-            "end": 778354,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 41801,
-            "end": 42495,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "22",
-        "default_text": "risks and benefits of nuclear energy",
-        "min_P@10": 0.2,
-        "max_P@10": 0.9,
-        "median_P@10": 0.8,
-        "min_nDCG@10": 0.293,
-        "max_nDCG@10": 0.927,
-        "median_nDCG@10": 0.788,
-        "min_Judged@10": 0.4,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.02,
-        "var_P@10": 0.029,
-        "var_Judged@10": 0.025,
-        "run_details": {
-            "start": 6982921,
-            "end": 7080776,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 778355,
-            "end": 788656,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 42496,
-            "end": 43106,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "23",
-        "default_text": "impact social media",
-        "min_P@10": 0.0,
-        "max_P@10": 0.6,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.659,
-        "median_nDCG@10": 0.149,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.023,
-        "var_P@10": 0.016,
-        "var_Judged@10": 0.048,
-        "run_details": {
-            "start": 7080777,
-            "end": 7178521,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 788657,
-            "end": 800704,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 43107,
-            "end": 43888,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "24",
-        "default_text": "how to fix broken windows",
-        "min_P@10": 0.0,
-        "max_P@10": 0.8,
-        "median_P@10": 0.5,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.863,
-        "median_nDCG@10": 0.389,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.042,
-        "var_P@10": 0.048,
-        "var_Judged@10": 0.064,
-        "run_details": {
-            "start": 7178522,
-            "end": 7275437,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 800705,
-            "end": 810239,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 43889,
-            "end": 44384,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "25",
-        "default_text": "technical university of munich",
-        "min_P@10": 0.1,
-        "max_P@10": 0.9,
-        "median_P@10": 0.8,
-        "min_nDCG@10": 0.095,
-        "max_nDCG@10": 0.864,
-        "median_nDCG@10": 0.774,
-        "min_Judged@10": 0.3,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.034,
-        "var_P@10": 0.033,
-        "var_Judged@10": 0.028,
-        "run_details": {
-            "start": 7275438,
-            "end": 7369854,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 810240,
-            "end": 820151,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 44385,
-            "end": 45039,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "26",
-        "default_text": "concerns for artificial intelligence in healthcare",
-        "min_P@10": 0.0,
-        "max_P@10": 0.1,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.148,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.002,
-        "var_P@10": 0.001,
-        "var_Judged@10": 0.037,
-        "run_details": {
-            "start": 7369855,
-            "end": 7465327,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 820152,
-            "end": 830828,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 45040,
-            "end": 45583,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "27",
-        "default_text": "good practice software testing",
-        "min_P@10": 0.0,
-        "max_P@10": 0.3,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.832,
-        "median_nDCG@10": 0.637,
-        "min_Judged@10": 0.2,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.8,
-        "var_nDCG@10": 0.058,
         "var_P@10": 0.008,
-        "var_Judged@10": 0.073,
+        "var_Judged@10": 0.056,
         "run_details": {
-            "start": 7465328,
-            "end": 7560753,
+            "start": 1221574,
+            "end": 1286162,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 830829,
-            "end": 838860,
+            "start": 155966,
+            "end": 164990,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 45584,
-            "end": 46054,
+            "start": 8283,
+            "end": 8677,
             "path": "qrel-details.jsonl"
         }
     },
     {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "28",
-        "default_text": "cat fur care",
-        "min_P@10": 0.0,
-        "max_P@10": 0.2,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 0.613,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.036,
-        "var_P@10": 0.003,
-        "var_Judged@10": 0.071,
-        "run_details": {
-            "start": 7560754,
-            "end": 7658934,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 838861,
-            "end": 848772,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 46055,
-            "end": 46454,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "29",
-        "default_text": "wind turbine power generation",
-        "min_P@10": 0.0,
-        "max_P@10": 0.4,
-        "median_P@10": 0.3,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.658,
-        "median_nDCG@10": 0.531,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.036,
-        "var_P@10": 0.012,
-        "var_Judged@10": 0.046,
-        "run_details": {
-            "start": 7658935,
-            "end": 7754929,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 848773,
-            "end": 857923,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 46455,
-            "end": 47042,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "30",
-        "default_text": "privacy protection strategies on social media",
-        "min_P@10": 0.0,
-        "max_P@10": 0.4,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.637,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.043,
-        "var_P@10": 0.023,
-        "var_Judged@10": 0.069,
-        "run_details": {
-            "start": 7754930,
-            "end": 7859490,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 857924,
-            "end": 870689,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 47043,
-            "end": 47634,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "31",
-        "default_text": "artificial intelligence in healthcare",
-        "min_P@10": 0.0,
-        "max_P@10": 0.6,
-        "median_P@10": 0.3,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.658,
-        "median_nDCG@10": 0.425,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.015,
-        "var_P@10": 0.013,
-        "var_Judged@10": 0.04,
-        "run_details": {
-            "start": 7859491,
-            "end": 7954551,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 870690,
-            "end": 880617,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 47635,
-            "end": 48246,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "32",
-        "default_text": "super mario cosmic ray bit flip",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.087,
-        "run_details": {
-            "start": 7954552,
-            "end": 8062448,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 880618,
-            "end": 893786,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 48247,
-            "end": 48760,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "33",
-        "default_text": "current inflation explanation",
-        "min_P@10": 0.0,
-        "max_P@10": 0.2,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.389,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.012,
-        "var_P@10": 0.003,
-        "var_Judged@10": 0.096,
-        "run_details": {
-            "start": 8062449,
-            "end": 8159188,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 893787,
-            "end": 902762,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 48761,
-            "end": 49200,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "34",
-        "default_text": "techno music history",
-        "min_P@10": 0.0,
-        "max_P@10": 0.3,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.967,
-        "median_nDCG@10": 0.704,
-        "min_Judged@10": 0.2,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.041,
-        "var_P@10": 0.002,
-        "var_Judged@10": 0.037,
-        "run_details": {
-            "start": 8159189,
-            "end": 8264064,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 902763,
-            "end": 916856,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 49201,
-            "end": 49709,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "35",
-        "default_text": "cycling race rules",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.101,
-        "run_details": {
-            "start": 8264065,
-            "end": 8369235,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 916857,
-            "end": 929811,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 49710,
-            "end": 50187,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "36",
-        "default_text": "disc brake repair",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.047,
-        "run_details": {
-            "start": 8369236,
-            "end": 8469456,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 929812,
-            "end": 937645,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 50188,
-            "end": 50677,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "37",
-        "default_text": "marathon training plan intermediate",
-        "min_P@10": 0.0,
-        "max_P@10": 0.2,
-        "median_P@10": 0.1,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 1.0,
-        "median_nDCG@10": 0.307,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.041,
-        "var_P@10": 0.003,
-        "var_Judged@10": 0.046,
-        "run_details": {
-            "start": 8469457,
-            "end": 8567772,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 937646,
-            "end": 948520,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 50678,
-            "end": 51117,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "38",
-        "default_text": "image recognition automobile",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.044,
-        "run_details": {
-            "start": 8567773,
-            "end": 8666809,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 464904,
-            "end": 479578,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 51118,
-            "end": 51680,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "39",
-        "default_text": "generative adversarial machine translation",
-        "min_P@10": 0.0,
-        "max_P@10": 0.0,
-        "median_P@10": 0.0,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.0,
-        "median_nDCG@10": 0.0,
-        "min_Judged@10": 0.0,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.0,
-        "var_P@10": 0.0,
-        "var_Judged@10": 0.076,
-        "run_details": {
-            "start": 8666810,
-            "end": 8762818,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 479579,
-            "end": 488943,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 51681,
-            "end": 52245,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "40",
-        "default_text": "impact of social media on mental health",
-        "min_P@10": 0.1,
-        "max_P@10": 0.7,
-        "median_P@10": 0.4,
-        "min_nDCG@10": 0.098,
-        "max_nDCG@10": 0.902,
-        "median_nDCG@10": 0.595,
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "22",
+        "default_text": "Search engine caching effects",
+        "min_P@10": 0.3,
+        "max_P@10": 0.9,
+        "median_P@10": 0.85,
+        "min_nDCG@10": 0.259,
+        "max_nDCG@10": 0.931,
+        "median_nDCG@10": 0.891,
         "min_Judged@10": 0.3,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.024,
-        "var_P@10": 0.012,
-        "var_Judged@10": 0.024,
-        "run_details": {
-            "start": 8762819,
-            "end": 8860695,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 488944,
-            "end": 500189,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 52246,
-            "end": 52729,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "41",
-        "default_text": "foundations of chemical engineering",
-        "min_P@10": 0.0,
-        "max_P@10": 0.5,
-        "median_P@10": 0.3,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.702,
-        "median_nDCG@10": 0.329,
-        "min_Judged@10": 0.1,
         "max_Judged@10": 1.0,
         "median_Judged@10": 0.95,
-        "var_nDCG@10": 0.03,
-        "var_P@10": 0.016,
-        "var_Judged@10": 0.039,
+        "var_nDCG@10": 0.031,
+        "var_P@10": 0.034,
+        "var_Judged@10": 0.041,
         "run_details": {
-            "start": 8860696,
-            "end": 8962385,
+            "start": 1286163,
+            "end": 1345633,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 500190,
-            "end": 513687,
+            "start": 164991,
+            "end": 172364,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 52730,
-            "end": 53297,
+            "start": 8678,
+            "end": 9319,
             "path": "qrel-details.jsonl"
         }
     },
     {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "42",
-        "default_text": "methods for protein structure analysis",
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "23",
+        "default_text": "Consumer Product reviews",
         "min_P@10": 0.1,
-        "max_P@10": 0.8,
-        "median_P@10": 0.7,
+        "max_P@10": 0.3,
+        "median_P@10": 0.1,
         "min_nDCG@10": 0.073,
-        "max_nDCG@10": 0.792,
-        "median_nDCG@10": 0.64,
+        "max_nDCG@10": 0.432,
+        "median_nDCG@10": 0.095,
         "min_Judged@10": 0.2,
         "max_Judged@10": 1.0,
         "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.066,
-        "var_P@10": 0.054,
-        "var_Judged@10": 0.06,
+        "var_nDCG@10": 0.009,
+        "var_P@10": 0.005,
+        "var_Judged@10": 0.034,
         "run_details": {
-            "start": 8962386,
-            "end": 9054516,
+            "start": 1345634,
+            "end": 1403246,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 513688,
-            "end": 522274,
+            "start": 172365,
+            "end": 179152,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 53298,
-            "end": 54020,
+            "start": 9320,
+            "end": 9806,
             "path": "qrel-details.jsonl"
         }
     },
     {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "43",
-        "default_text": "ai ethical downsides",
-        "min_P@10": 0.0,
-        "max_P@10": 0.8,
-        "median_P@10": 0.5,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.82,
-        "median_nDCG@10": 0.56,
-        "min_Judged@10": 0.2,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.044,
-        "var_P@10": 0.04,
-        "var_Judged@10": 0.073,
-        "run_details": {
-            "start": 9054517,
-            "end": 9147272,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 522275,
-            "end": 530503,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 54021,
-            "end": 54536,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "44",
-        "default_text": "using cnns for image data",
-        "min_P@10": 0.0,
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "24",
+        "default_text": "Limitations machine learning",
+        "min_P@10": 0.1,
         "max_P@10": 0.5,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.63,
-        "median_nDCG@10": 0.251,
-        "min_Judged@10": 0.3,
+        "median_P@10": 0.5,
+        "min_nDCG@10": 0.303,
+        "max_nDCG@10": 0.842,
+        "median_nDCG@10": 0.789,
+        "min_Judged@10": 0.2,
         "max_Judged@10": 1.0,
         "median_Judged@10": 1.0,
         "var_nDCG@10": 0.017,
         "var_P@10": 0.01,
-        "var_Judged@10": 0.04,
+        "var_Judged@10": 0.042,
         "run_details": {
-            "start": 9147273,
-            "end": 9249301,
+            "start": 1403247,
+            "end": 1463838,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 530504,
-            "end": 546657,
+            "start": 179153,
+            "end": 186871,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 54537,
-            "end": 54965,
+            "start": 9807,
+            "end": 10340,
             "path": "qrel-details.jsonl"
         }
     },
     {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "45",
-        "default_text": "social media bot influence",
-        "min_P@10": 0.0,
-        "max_P@10": 0.5,
-        "median_P@10": 0.4,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.732,
-        "median_nDCG@10": 0.4,
-        "min_Judged@10": 0.1,
-        "max_Judged@10": 1.0,
-        "median_Judged@10": 1.0,
-        "var_nDCG@10": 0.033,
-        "var_P@10": 0.027,
-        "var_Judged@10": 0.056,
-        "run_details": {
-            "start": 9249302,
-            "end": 9351293,
-            "path": "run-details.jsonl"
-        },
-        "qrel_details": {
-            "start": 546658,
-            "end": 559989,
-            "path": "qrel-details.jsonl"
-        },
-        "topic_details": {
-            "start": 54966,
-            "end": 55515,
-            "path": "qrel-details.jsonl"
-        }
-    },
-    {
-        "dataset": "ir-lab-jena-leipzig-wise-2023/leipzig-topics-20231025-test",
-        "query_id": "46",
-        "default_text": "machine learning in energy system analysis",
-        "min_P@10": 0.0,
-        "max_P@10": 0.4,
-        "median_P@10": 0.2,
-        "min_nDCG@10": 0.0,
-        "max_nDCG@10": 0.701,
-        "median_nDCG@10": 0.406,
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "25",
+        "default_text": "medicine related research",
+        "min_P@10": 0.2,
+        "max_P@10": 0.9,
+        "median_P@10": 0.75,
+        "min_nDCG@10": 0.205,
+        "max_nDCG@10": 0.927,
+        "median_nDCG@10": 0.786,
         "min_Judged@10": 0.2,
         "max_Judged@10": 1.0,
         "median_Judged@10": 0.9,
-        "var_nDCG@10": 0.031,
-        "var_P@10": 0.007,
-        "var_Judged@10": 0.053,
+        "var_nDCG@10": 0.055,
+        "var_P@10": 0.048,
+        "var_Judged@10": 0.046,
         "run_details": {
-            "start": 9351294,
-            "end": 9451691,
+            "start": 1463839,
+            "end": 1524609,
             "path": "run-details.jsonl"
         },
         "qrel_details": {
-            "start": 559990,
-            "end": 571617,
+            "start": 186872,
+            "end": 194489,
             "path": "qrel-details.jsonl"
         },
         "topic_details": {
-            "start": 55516,
-            "end": 56137,
+            "start": 10341,
+            "end": 10600,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "26",
+        "default_text": "Natural Language Processing",
+        "min_P@10": 0.2,
+        "max_P@10": 0.9,
+        "median_P@10": 0.8,
+        "min_nDCG@10": 0.232,
+        "max_nDCG@10": 0.922,
+        "median_nDCG@10": 0.846,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.9,
+        "var_nDCG@10": 0.071,
+        "var_P@10": 0.059,
+        "var_Judged@10": 0.087,
+        "run_details": {
+            "start": 1524610,
+            "end": 1584541,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 194490,
+            "end": 201814,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 10601,
+            "end": 10832,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "27",
+        "default_text": "graph based ranking",
+        "min_P@10": 0.1,
+        "max_P@10": 0.8,
+        "median_P@10": 0.6,
+        "min_nDCG@10": 0.078,
+        "max_nDCG@10": 0.842,
+        "median_nDCG@10": 0.717,
+        "min_Judged@10": 0.1,
+        "max_Judged@10": 0.9,
+        "median_Judged@10": 0.7,
+        "var_nDCG@10": 0.049,
+        "var_P@10": 0.042,
+        "var_Judged@10": 0.056,
+        "run_details": {
+            "start": 1584542,
+            "end": 1650069,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 201815,
+            "end": 210113,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 10833,
+            "end": 11135,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "28",
+        "default_text": "medical studies that use information retrieval ?",
+        "min_P@10": 0.0,
+        "max_P@10": 0.6,
+        "median_P@10": 0.4,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.655,
+        "median_nDCG@10": 0.457,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.7,
+        "var_nDCG@10": 0.018,
+        "var_P@10": 0.015,
+        "var_Judged@10": 0.041,
+        "run_details": {
+            "start": 1650070,
+            "end": 1709934,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 210114,
+            "end": 218996,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 11136,
+            "end": 11565,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "29",
+        "default_text": "information retrieval on different language sources ?",
+        "min_P@10": 0.0,
+        "max_P@10": 0.8,
+        "median_P@10": 0.6,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.824,
+        "median_nDCG@10": 0.693,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.95,
+        "var_nDCG@10": 0.036,
+        "var_P@10": 0.035,
+        "var_Judged@10": 0.057,
+        "run_details": {
+            "start": 1709935,
+            "end": 1770193,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 218997,
+            "end": 229008,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 11566,
+            "end": 12077,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "30",
+        "default_text": "papers that compare multiple information retrieval methods",
+        "min_P@10": 0.4,
+        "max_P@10": 0.8,
+        "median_P@10": 0.65,
+        "min_nDCG@10": 0.388,
+        "max_nDCG@10": 0.845,
+        "median_nDCG@10": 0.691,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 0.9,
+        "median_Judged@10": 0.9,
+        "var_nDCG@10": 0.022,
+        "var_P@10": 0.011,
+        "var_Judged@10": 0.017,
+        "run_details": {
+            "start": 1770194,
+            "end": 1832566,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 229009,
+            "end": 238199,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 12078,
+            "end": 12490,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "31",
+        "default_text": " risks of information retrieval in social media ?",
+        "min_P@10": 0.0,
+        "max_P@10": 0.9,
+        "median_P@10": 0.8,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.915,
+        "median_nDCG@10": 0.851,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.063,
+        "var_P@10": 0.064,
+        "var_Judged@10": 0.051,
+        "run_details": {
+            "start": 1832567,
+            "end": 1891921,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 238200,
+            "end": 247583,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 12491,
+            "end": 13119,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "32",
+        "default_text": "actual experiments that strengthen theoretical knowledge",
+        "min_P@10": 0.0,
+        "max_P@10": 1.0,
+        "median_P@10": 0.8,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.792,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.9,
+        "var_nDCG@10": 0.072,
+        "var_P@10": 0.081,
+        "var_Judged@10": 0.061,
+        "run_details": {
+            "start": 1891922,
+            "end": 1954900,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 247584,
+            "end": 256894,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 13120,
+            "end": 13597,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "33",
+        "default_text": "fake news detection",
+        "min_P@10": 0.3,
+        "max_P@10": 0.9,
+        "median_P@10": 0.9,
+        "min_nDCG@10": 0.29,
+        "max_nDCG@10": 0.934,
+        "median_nDCG@10": 0.918,
+        "min_Judged@10": 0.3,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.027,
+        "var_P@10": 0.027,
+        "var_Judged@10": 0.041,
+        "run_details": {
+            "start": 1954901,
+            "end": 2008962,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 256895,
+            "end": 263228,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 13598,
+            "end": 14005,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "34",
+        "default_text": " multimedia retrieval ",
+        "min_P@10": 0.1,
+        "max_P@10": 0.9,
+        "median_P@10": 0.75,
+        "min_nDCG@10": 0.066,
+        "max_nDCG@10": 0.915,
+        "median_nDCG@10": 0.803,
+        "min_Judged@10": 0.1,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.85,
+        "var_nDCG@10": 0.081,
+        "var_P@10": 0.072,
+        "var_Judged@10": 0.097,
+        "run_details": {
+            "start": 2008963,
+            "end": 2072674,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 263229,
+            "end": 271377,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 14006,
+            "end": 14332,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "35",
+        "default_text": "processing natural language for information retrieval",
+        "min_P@10": 0.4,
+        "max_P@10": 1.0,
+        "median_P@10": 0.8,
+        "min_nDCG@10": 0.364,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.856,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.8,
+        "var_nDCG@10": 0.049,
+        "var_P@10": 0.06,
+        "var_Judged@10": 0.06,
+        "run_details": {
+            "start": 2072675,
+            "end": 2137540,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 271378,
+            "end": 280823,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 14333,
+            "end": 14939,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "36",
+        "default_text": "recommendation systems",
+        "min_P@10": 0.2,
+        "max_P@10": 1.0,
+        "median_P@10": 0.85,
+        "min_nDCG@10": 0.158,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.894,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.85,
+        "var_nDCG@10": 0.045,
+        "var_P@10": 0.05,
+        "var_Judged@10": 0.05,
+        "run_details": {
+            "start": 2137541,
+            "end": 2200814,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 280824,
+            "end": 289582,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 14940,
+            "end": 15377,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "37",
+        "default_text": "personalised search in e-commerce",
+        "min_P@10": 0.0,
+        "max_P@10": 0.6,
+        "median_P@10": 0.25,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.696,
+        "median_nDCG@10": 0.332,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.95,
+        "var_nDCG@10": 0.018,
+        "var_P@10": 0.017,
+        "var_Judged@10": 0.063,
+        "run_details": {
+            "start": 2200815,
+            "end": 2263576,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 289583,
+            "end": 298336,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 15378,
+            "end": 16274,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "38",
+        "default_text": "sentiment analysis",
+        "min_P@10": 0.0,
+        "max_P@10": 1.0,
+        "median_P@10": 0.85,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.891,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.95,
+        "var_nDCG@10": 0.091,
+        "var_P@10": 0.087,
+        "var_Judged@10": 0.096,
+        "run_details": {
+            "start": 2263577,
+            "end": 2324423,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 298337,
+            "end": 305972,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 16275,
+            "end": 16765,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "39",
+        "default_text": "informational retrieval using neural networks",
+        "min_P@10": 0.1,
+        "max_P@10": 0.7,
+        "median_P@10": 0.55,
+        "min_nDCG@10": 0.22,
+        "max_nDCG@10": 0.731,
+        "median_nDCG@10": 0.466,
+        "min_Judged@10": 0.1,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.95,
+        "var_nDCG@10": 0.018,
+        "var_P@10": 0.038,
+        "var_Judged@10": 0.083,
+        "run_details": {
+            "start": 2324424,
+            "end": 2387166,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 305973,
+            "end": 315160,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 16766,
+            "end": 17431,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "40",
+        "default_text": "Query log analysis",
+        "min_P@10": 0.3,
+        "max_P@10": 0.9,
+        "median_P@10": 0.85,
+        "min_nDCG@10": 0.275,
+        "max_nDCG@10": 0.936,
+        "median_nDCG@10": 0.893,
+        "min_Judged@10": 0.3,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.85,
+        "var_nDCG@10": 0.063,
+        "var_P@10": 0.041,
+        "var_Judged@10": 0.055,
+        "run_details": {
+            "start": 2387167,
+            "end": 2446166,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 315161,
+            "end": 322961,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 17432,
+            "end": 18304,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "41",
+        "default_text": "entity recognition",
+        "min_P@10": 0.4,
+        "max_P@10": 0.7,
+        "median_P@10": 0.5,
+        "min_nDCG@10": 0.313,
+        "max_nDCG@10": 0.757,
+        "median_nDCG@10": 0.53,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 0.7,
+        "median_Judged@10": 0.5,
+        "var_nDCG@10": 0.016,
+        "var_P@10": 0.012,
+        "var_Judged@10": 0.012,
+        "run_details": {
+            "start": 2446167,
+            "end": 2504997,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 322962,
+            "end": 331117,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 18305,
+            "end": 18674,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "42",
+        "default_text": "relevance assessments",
+        "min_P@10": 0.2,
+        "max_P@10": 0.7,
+        "median_P@10": 0.2,
+        "min_nDCG@10": 0.293,
+        "max_nDCG@10": 0.785,
+        "median_nDCG@10": 0.305,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 0.8,
+        "median_Judged@10": 0.2,
+        "var_nDCG@10": 0.024,
+        "var_P@10": 0.029,
+        "var_Judged@10": 0.038,
+        "run_details": {
+            "start": 2504998,
+            "end": 2562882,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 331118,
+            "end": 339489,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 18675,
+            "end": 19056,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "43",
+        "default_text": "Deep Neural Networks",
+        "min_P@10": 0.7,
+        "max_P@10": 1.0,
+        "median_P@10": 1.0,
+        "min_nDCG@10": 0.801,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 1.0,
+        "min_Judged@10": 0.8,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.006,
+        "var_P@10": 0.014,
+        "var_Judged@10": 0.004,
+        "run_details": {
+            "start": 2562883,
+            "end": 2617126,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 339490,
+            "end": 346696,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 19057,
+            "end": 19377,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "44",
+        "default_text": "Information Retrieval",
+        "min_P@10": 0.1,
+        "max_P@10": 1.0,
+        "median_P@10": 0.8,
+        "min_nDCG@10": 0.139,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.858,
+        "min_Judged@10": 0.1,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.032,
+        "var_P@10": 0.035,
+        "var_Judged@10": 0.053,
+        "run_details": {
+            "start": 2617127,
+            "end": 2680059,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 346697,
+            "end": 356956,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 19378,
+            "end": 19719,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "45",
+        "default_text": "Analysis for Android apps",
+        "min_P@10": 0.4,
+        "max_P@10": 0.9,
+        "median_P@10": 0.8,
+        "min_nDCG@10": 0.542,
+        "max_nDCG@10": 0.915,
+        "median_nDCG@10": 0.67,
+        "min_Judged@10": 1.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.006,
+        "var_P@10": 0.015,
+        "var_Judged@10": 0.0,
+        "run_details": {
+            "start": 2680060,
+            "end": 2732481,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 356957,
+            "end": 362185,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 19720,
+            "end": 20047,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "46",
+        "default_text": "The University of Amsterdam",
+        "min_P@10": 0.3,
+        "max_P@10": 0.5,
+        "median_P@10": 0.5,
+        "min_nDCG@10": 0.232,
+        "max_nDCG@10": 0.565,
+        "median_nDCG@10": 0.457,
+        "min_Judged@10": 0.8,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.9,
+        "var_nDCG@10": 0.007,
+        "var_P@10": 0.003,
+        "var_Judged@10": 0.003,
+        "run_details": {
+            "start": 2732482,
+            "end": 2780880,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 362186,
+            "end": 366884,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 20048,
+            "end": 20410,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "47",
+        "default_text": "Neural Ranking for eCommerce Product Search",
+        "min_P@10": 0.2,
+        "max_P@10": 0.4,
+        "median_P@10": 0.2,
+        "min_nDCG@10": 0.319,
+        "max_nDCG@10": 0.569,
+        "median_nDCG@10": 0.353,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.9,
+        "var_nDCG@10": 0.006,
+        "var_P@10": 0.007,
+        "var_Judged@10": 0.02,
+        "run_details": {
+            "start": 2780881,
+            "end": 2837488,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 366885,
+            "end": 373836,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 20411,
+            "end": 20888,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "48",
+        "default_text": "web pages evolution",
+        "min_P@10": 0.3,
+        "max_P@10": 0.8,
+        "median_P@10": 0.7,
+        "min_nDCG@10": 0.253,
+        "max_nDCG@10": 0.863,
+        "median_nDCG@10": 0.688,
+        "min_Judged@10": 0.9,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.018,
+        "var_P@10": 0.012,
+        "var_Judged@10": 0.002,
+        "run_details": {
+            "start": 2837489,
+            "end": 2890674,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 373837,
+            "end": 380254,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 20889,
+            "end": 21219,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "49",
+        "default_text": " exhaustivity of index ",
+        "min_P@10": 0.0,
+        "max_P@10": 0.2,
+        "median_P@10": 0.1,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.339,
+        "median_nDCG@10": 0.117,
+        "min_Judged@10": 0.1,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.007,
+        "var_P@10": 0.003,
+        "var_Judged@10": 0.04,
+        "run_details": {
+            "start": 2890675,
+            "end": 2950922,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 380255,
+            "end": 388149,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 21220,
+            "end": 21653,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "50",
+        "default_text": "query optimization",
+        "min_P@10": 0.0,
+        "max_P@10": 1.0,
+        "median_P@10": 0.95,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.963,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.95,
+        "var_nDCG@10": 0.107,
+        "var_P@10": 0.115,
+        "var_Judged@10": 0.115,
+        "run_details": {
+            "start": 2950923,
+            "end": 3011697,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 388150,
+            "end": 395527,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 21654,
+            "end": 22072,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "51",
+        "default_text": " Cosine similarity vector ",
+        "min_P@10": 0.2,
+        "max_P@10": 0.5,
+        "median_P@10": 0.4,
+        "min_nDCG@10": 0.286,
+        "max_nDCG@10": 0.542,
+        "median_nDCG@10": 0.376,
+        "min_Judged@10": 0.6,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.004,
+        "var_P@10": 0.008,
+        "var_Judged@10": 0.018,
+        "run_details": {
+            "start": 3011698,
+            "end": 3067504,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 395528,
+            "end": 402654,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 22073,
+            "end": 22491,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "52",
+        "default_text": " reverse indexing",
+        "min_P@10": 0.1,
+        "max_P@10": 0.5,
+        "median_P@10": 0.3,
+        "min_nDCG@10": 0.14,
+        "max_nDCG@10": 0.43,
+        "median_nDCG@10": 0.322,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.004,
+        "var_P@10": 0.008,
+        "var_Judged@10": 0.067,
+        "run_details": {
+            "start": 3067505,
+            "end": 3129839,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 402655,
+            "end": 410887,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 22492,
+            "end": 22836,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "53",
+        "default_text": "index compression techniques",
+        "min_P@10": 0.4,
+        "max_P@10": 1.0,
+        "median_P@10": 0.9,
+        "min_nDCG@10": 0.347,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.932,
+        "min_Judged@10": 0.5,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.028,
+        "var_P@10": 0.024,
+        "var_Judged@10": 0.017,
+        "run_details": {
+            "start": 3129840,
+            "end": 3184812,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 410888,
+            "end": 417415,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 22837,
+            "end": 23250,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "54",
+        "default_text": "search engine optimization with query logs",
+        "min_P@10": 0.1,
+        "max_P@10": 0.5,
+        "median_P@10": 0.4,
+        "min_nDCG@10": 0.085,
+        "max_nDCG@10": 0.435,
+        "median_nDCG@10": 0.357,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.014,
+        "var_P@10": 0.021,
+        "var_Judged@10": 0.086,
+        "run_details": {
+            "start": 3184813,
+            "end": 3250816,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 417416,
+            "end": 425400,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 23251,
+            "end": 23715,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "55",
+        "default_text": "BM25",
+        "min_P@10": 0.3,
+        "max_P@10": 0.6,
+        "median_P@10": 0.6,
+        "min_nDCG@10": 0.233,
+        "max_nDCG@10": 0.643,
+        "median_nDCG@10": 0.548,
+        "min_Judged@10": 0.5,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.9,
+        "var_nDCG@10": 0.015,
+        "var_P@10": 0.012,
+        "var_Judged@10": 0.037,
+        "run_details": {
+            "start": 3250817,
+            "end": 3303193,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 425401,
+            "end": 430121,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 23716,
+            "end": 23998,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "56",
+        "default_text": " What makes Natural Language Processing natural? ",
+        "min_P@10": 0.0,
+        "max_P@10": 0.5,
+        "median_P@10": 0.5,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.486,
+        "median_nDCG@10": 0.42,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 0.9,
+        "median_Judged@10": 0.7,
+        "var_nDCG@10": 0.037,
+        "var_P@10": 0.043,
+        "var_Judged@10": 0.093,
+        "run_details": {
+            "start": 3303194,
+            "end": 3365898,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 430122,
+            "end": 437376,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 23999,
+            "end": 24446,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "57",
+        "default_text": "principle of a information retrieval indexing",
+        "min_P@10": 0.0,
+        "max_P@10": 0.4,
+        "median_P@10": 0.3,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.454,
+        "median_nDCG@10": 0.435,
+        "min_Judged@10": 0.1,
+        "max_Judged@10": 0.8,
+        "median_Judged@10": 0.8,
+        "var_nDCG@10": 0.021,
+        "var_P@10": 0.009,
+        "var_Judged@10": 0.056,
+        "run_details": {
+            "start": 3365899,
+            "end": 3431020,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 437377,
+            "end": 445427,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 24447,
+            "end": 24790,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "58",
+        "default_text": "Architecture of web search engine",
+        "min_P@10": 0.1,
+        "max_P@10": 0.6,
+        "median_P@10": 0.6,
+        "min_nDCG@10": 0.073,
+        "max_nDCG@10": 0.684,
+        "median_nDCG@10": 0.605,
+        "min_Judged@10": 0.3,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.038,
+        "var_P@10": 0.025,
+        "var_Judged@10": 0.043,
+        "run_details": {
+            "start": 3431021,
+            "end": 3494701,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 445428,
+            "end": 454086,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 24791,
+            "end": 25224,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "59",
+        "default_text": "What is AHP",
+        "min_P@10": 0.0,
+        "max_P@10": 0.2,
+        "median_P@10": 0.2,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 1.0,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 0.3,
+        "median_Judged@10": 0.3,
+        "var_nDCG@10": 0.052,
+        "var_P@10": 0.002,
+        "var_Judged@10": 0.001,
+        "run_details": {
+            "start": 3494702,
+            "end": 3521800,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 454087,
+            "end": 456929,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 25225,
+            "end": 25609,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "60",
+        "default_text": "What is information retrieval?",
+        "min_P@10": 0.0,
+        "max_P@10": 0.4,
+        "median_P@10": 0.1,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.564,
+        "median_nDCG@10": 0.095,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.9,
+        "var_nDCG@10": 0.013,
+        "var_P@10": 0.007,
+        "var_Judged@10": 0.1,
+        "run_details": {
+            "start": 3521801,
+            "end": 3592563,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 456930,
+            "end": 466213,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 25610,
+            "end": 26063,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "61",
+        "default_text": "Efficient retrieval algorithms",
+        "min_P@10": 0.0,
+        "max_P@10": 0.9,
+        "median_P@10": 0.75,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.931,
+        "median_nDCG@10": 0.817,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.8,
+        "var_nDCG@10": 0.09,
+        "var_P@10": 0.08,
+        "var_Judged@10": 0.108,
+        "run_details": {
+            "start": 3592564,
+            "end": 3659793,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 466214,
+            "end": 475680,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 26064,
+            "end": 26473,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "62",
+        "default_text": "How to avoid spam results",
+        "min_P@10": 0.2,
+        "max_P@10": 0.9,
+        "median_P@10": 0.9,
+        "min_nDCG@10": 0.149,
+        "max_nDCG@10": 0.934,
+        "median_nDCG@10": 0.915,
+        "min_Judged@10": 0.3,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.041,
+        "var_P@10": 0.036,
+        "var_Judged@10": 0.032,
+        "run_details": {
+            "start": 3659794,
+            "end": 3719465,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 475681,
+            "end": 483891,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 26474,
+            "end": 26877,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "63",
+        "default_text": "Information Retrieval with algorithms",
+        "min_P@10": 0.0,
+        "max_P@10": 1.0,
+        "median_P@10": 0.75,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 1.0,
+        "median_nDCG@10": 0.826,
+        "min_Judged@10": 0.0,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.75,
+        "var_nDCG@10": 0.11,
+        "var_P@10": 0.109,
+        "var_Judged@10": 0.109,
+        "run_details": {
+            "start": 3719466,
+            "end": 3784770,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 483892,
+            "end": 492108,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 26878,
+            "end": 27201,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "64",
+        "default_text": "misspellings in queries",
+        "min_P@10": 0.2,
+        "max_P@10": 0.5,
+        "median_P@10": 0.5,
+        "min_nDCG@10": 0.351,
+        "max_nDCG@10": 0.732,
+        "median_nDCG@10": 0.701,
+        "min_Judged@10": 0.4,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.009,
+        "var_P@10": 0.005,
+        "var_Judged@10": 0.028,
+        "run_details": {
+            "start": 3784771,
+            "end": 3842772,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 492109,
+            "end": 499454,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 27202,
+            "end": 27632,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "65",
+        "default_text": "information in different language",
+        "min_P@10": 0.1,
+        "max_P@10": 0.3,
+        "median_P@10": 0.1,
+        "min_nDCG@10": 0.064,
+        "max_nDCG@10": 0.36,
+        "median_nDCG@10": 0.095,
+        "min_Judged@10": 0.1,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.85,
+        "var_nDCG@10": 0.006,
+        "var_P@10": 0.002,
+        "var_Judged@10": 0.103,
+        "run_details": {
+            "start": 3842773,
+            "end": 3909576,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 499455,
+            "end": 507590,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 27633,
+            "end": 28017,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "66",
+        "default_text": "Abbreviations in queries",
+        "min_P@10": 0.1,
+        "max_P@10": 0.6,
+        "median_P@10": 0.45,
+        "min_nDCG@10": 0.139,
+        "max_nDCG@10": 0.713,
+        "median_nDCG@10": 0.536,
+        "min_Judged@10": 0.3,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.016,
+        "var_P@10": 0.017,
+        "var_Judged@10": 0.06,
+        "run_details": {
+            "start": 3909577,
+            "end": 3969369,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 507591,
+            "end": 515806,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 28018,
+            "end": 28437,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "67",
+        "default_text": "lemmatization algorithms",
+        "min_P@10": 0.3,
+        "max_P@10": 0.5,
+        "median_P@10": 0.5,
+        "min_nDCG@10": 0.66,
+        "max_nDCG@10": 0.976,
+        "median_nDCG@10": 0.94,
+        "min_Judged@10": 0.7,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.008,
+        "var_P@10": 0.004,
+        "var_Judged@10": 0.013,
+        "run_details": {
+            "start": 3969370,
+            "end": 4023587,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 515807,
+            "end": 522141,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 28438,
+            "end": 28814,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "68",
+        "default_text": "filter ad rich documents",
+        "min_P@10": 0.0,
+        "max_P@10": 0.5,
+        "median_P@10": 0.3,
+        "min_nDCG@10": 0.0,
+        "max_nDCG@10": 0.743,
+        "median_nDCG@10": 0.498,
+        "min_Judged@10": 0.2,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 1.0,
+        "var_nDCG@10": 0.039,
+        "var_P@10": 0.015,
+        "var_Judged@10": 0.033,
+        "run_details": {
+            "start": 4023588,
+            "end": 4079986,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 522142,
+            "end": 530863,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 28815,
+            "end": 29092,
+            "path": "qrel-details.jsonl"
+        }
+    },
+    {
+        "dataset": "ir-lab-jena-leipzig-sose-2023/iranthology-20230618-training",
+        "query_id": "18",
+        "default_text": "Advancements in Information Retrieval",
+        "min_P@10": 0.1,
+        "max_P@10": 0.8,
+        "median_P@10": 0.7,
+        "min_nDCG@10": 0.066,
+        "max_nDCG@10": 0.86,
+        "median_nDCG@10": 0.783,
+        "min_Judged@10": 0.1,
+        "max_Judged@10": 1.0,
+        "median_Judged@10": 0.8,
+        "var_nDCG@10": 0.064,
+        "var_P@10": 0.064,
+        "var_Judged@10": 0.037,
+        "run_details": {
+            "start": 1034974,
+            "end": 1096442,
+            "path": "run-details.jsonl"
+        },
+        "qrel_details": {
+            "start": 530864,
+            "end": 541127,
+            "path": "qrel-details.jsonl"
+        },
+        "topic_details": {
+            "start": 29093,
+            "end": 29386,
             "path": "qrel-details.jsonl"
         }
     }
