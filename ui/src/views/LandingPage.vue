@@ -16,7 +16,7 @@
             </v-btn>
           </v-col>
           <v-col cols="auto text-primary">
-            <v-btn href="https://www.tira.io/task-overview/ir-lab-jena-leipzig-wise-2023" target="_blank"  min-width="228"  rel="noopener noreferrer" size="x-large" variant="outlined">
+            <v-btn href="https://www.tira.io/task-overview/ir-lab-jena-leipzig-sose-2023" target="_blank"  min-width="228"  rel="noopener noreferrer" size="x-large" variant="outlined">
               <v-icon size="large" start>
                 <v-img src="https://www.tira.io/public/tira/frontend-vuetify/assets-public/logo.svg" />
               </v-icon>
@@ -24,7 +24,7 @@
             </v-btn>
           </v-col>
           <v-col cols="auto">
-            <v-btn class="home-button" href="https://github.com/tira-io/ir-lab-ws-23" target="_blank" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat">
+            <v-btn class="home-button" href="https://github.com/tira-io/ir-lab-sose-23" target="_blank" min-width="228" rel="noopener noreferrer" size="x-large" variant="flat">
               <v-icon icon="mdi-github" size="large" start/>
               GitHub
             </v-btn>
